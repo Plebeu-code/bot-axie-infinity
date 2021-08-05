@@ -4,7 +4,7 @@
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/tgmarinho/README-ecoleta">
     
    <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
-   <a href="https://github.com/Plebeu-code/bot-axie-infinity/stargazers">
+    <a href="#">
     <img alt="Stargazers" src="	https://img.shields.io/github/stars/Plebeu-code/bot-axie-infinity">
   </a>
 
