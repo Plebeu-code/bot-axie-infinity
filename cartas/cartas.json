@@ -1,0 +1,418 @@
+{
+    "Scaly": {
+        "nome": "Scaly Lunge",
+        "desc": "Causa 120% de dano quando acorrentado com outra carta de lunge.",
+        "img": "https://cdn.discordapp.com/attachments/556585154798288920/869326570429493289/11.png"
+    },
+    "suprise": {
+        "nome": "Suprise Invasion",
+        "desc": "Causa 130% do dano se o alvo for mais rápido que este Axie.",
+        "img": "https://cdn.discordapp.com/attachments/556585154798288920/869326567187283998/10.png"
+    },
+    "disarm": {
+        "nome": "Disarm",
+        "disc": "Aplique Velocidade ao atacante por 2 rodadas.",
+        "img": "https://cdn.discordapp.com/attachments/556585154798288920/869326563395649546/9.png"
+    },
+    "overgrow": {
+        "nome": "Overgrow Keratin",
+        "desc": "Recupere 20 escudos por turno.",
+        "img": "https://cdn.discordapp.com/attachments/556585154798288920/869326559411056700/8.png"
+    },
+    "sneaky": {
+        "nome": "Sneaky Raid",
+        "desc": "Mire no inimigo mais distante.",
+        "img": "https://cdn.discordapp.com/attachments/556585154798288920/869326555460014151/7.png"
+    },
+    "kotaro": {
+        "nome": "Kotaro Bite",
+        "desc": "Ganhe 1 energia se o alvo for mais rápido",
+        "img": "https://cdn.discordapp.com/attachments/556585154798288920/869326552079421521/6.png"        
+    },
+    "poo": {
+        "nome": "Poo Fling",
+        "desc": "Aplique Stench no alvo até o final da rodada.",
+        "img": "https://cdn.discordapp.com/attachments/556585154798288920/869326546488406126/5.png"
+    },
+    "nile": {
+        "nome": "Nile Strike",
+        "desc": "Velocidade Aplique Speed por duas rodadas",
+        "img": "https://cdn.discordapp.com/attachments/556585154798288920/869326542793220186/4.png"
+    },
+    "vine": {
+        "nome": "Vine Dagger",
+        "desc": "Escudo duplo desta carta quando combinado com uma carta de planta.",
+        "imag": "https://cdn.discordapp.com/attachments/556585154798288920/869326537537781790/3.png"
+    },
+    "spike": {
+        "nome": "Spike Throw",
+        "desc": "Mire no inimigo com o escudo mais baixo quando combinado com 2 ou mais cartas.",
+        "img": "https://cdn.discordapp.com/attachments/556585154798288920/869326532336816138/2.png"
+    },
+    "ivory": {
+        "nome": "Ivory Chop",
+        "desc": "Compre uma carta se o escudo do Axie quebrar.",
+        "img": "https://cdn.discordapp.com/attachments/556585154798288920/869326527433695303/1.png"
+    },
+    "suppery": {
+        "nome": "Suppery Shield",
+        "desc": "Adicione 13% do escudo do Axie aos companheiros de equipe adjacentes.",
+        "img": "https://cdn.discordapp.com/attachments/556585154798288920/869326524686401636/Camada_2.png"
+    },
+    "why": {
+        "nome": "Why So Serious",
+        "desc": "Cure este Axie pelo dano infligido com esta carta a alvos aquáticos.",
+        "img": "https://cdn.discordapp.com/attachments/556585154798288920/869326520718610462/19.png"
+    },
+    "chomp": {
+        "nome": "Chomp",
+        "desc": "Aplique Stun ao inimigo quando combinado com 2 cartas adicionais.",
+        "img": "https://cdn.discordapp.com/attachments/556585154798288920/869326516369096804/18.png"
+    },
+    "critical": {
+        "nome": "Critical Escape",
+        "desc": "Reduza o dano recebido por 15% nesta rodada",
+        "img": "https://cdn.discordapp.com/attachments/556585154798288920/869326512149651496/17.png"
+    },
+    "scale": {
+        "nome": "Scale Dart",
+        "desc": "Gere 1 energia ao atacar um alvo com buff.",
+        "img": "https://cdn.discordapp.com/attachments/556585154798288920/869326508597080144/16.png"
+    },
+    "tiny":{    
+        "nome": "Tiny Swing",
+        "desc": "Causa 150% do dano após a rodada 4.",
+        "img": "https://cdn.discordapp.com/attachments/556585154798288920/869326504662798396/15.png"
+    },   
+    "jar":{ 
+        "nome":"Jar Barrage",
+        "desc": "Ataques que quebram o escudo do Axie não podem causar danos adicionais. Só pode ser adicionado uma vez por rodada.",
+        "img": "https://cdn.discordapp.com/attachments/556585154798288920/869326500825034892/14.png"   
+    },
+    "neuro":{   
+        "nome": "Neuro Toxin",
+        "desc": "Aplicar Ataque a alvos envenenados.",  
+        "img":"https://cdn.discordapp.com/attachments/556585154798288920/869326495330496642/13.png"
+    },
+    "star":{    
+        "nome": "Star Shuriken",
+        "desc": "O alvo não pode entrar no Last Stand se esta carta traz seu Hp a zero.",
+        "img": "https://cdn.discordapp.com/attachments/556585154798288920/869323385400856596/17.png"
+    },  
+    "hero":{   
+        "nome": "Hero's Bane",
+        "desc": "Finalizar a Última resistencia do alvo.",
+        "img": "https://cdn.discordapp.com/attachments/556585154798288920/869323383211454484/16.png"
+    },  
+    "deep":{    
+        "nome": "Deep Sea Gore",
+        "desc": "Adicione 30% ao escudo do Axie ao atacar.",
+        "img": "https://cdn.discordapp.com/attachments/556585154798288920/869322980742823966/Camada_2.png"
+    },  
+    "chitin":{  
+        "nome": "Chitin Jump",
+        "desc": "Prioriza o alvo mais distante.",
+        "img": "https://cdn.discordapp.com/attachments/556585154798288920/869322974925303818/19.png"
+    },
+    "angry": {
+        "nome": "Angry Lam",
+        "desc": "Causa 120% de dano se o HP deste Axie estiver abaixo de 50%.",
+        "img": "https://cdn.discordapp.com/attachments/556585154798288920/869322970609381466/18.png"
+    },
+    "aquaponics": {
+        "nome": "Aquaponics",
+        "desc": "Ataques bem-sucedidos restauram 50 de HP para cada parte da Anêmona que este Axie possui.",
+        "img": "https://cdn.discordapp.com/attachments/556585154798288920/869322945498087475/15.png"
+    },
+    "clam": {
+        "nome": "Clam Slash",
+        "desc": "Aplique ataque + a este Axie ao atacar alvos de Bestas, Bug ou Mech.",
+        "img": "https://cdn.discordapp.com/attachments/556585154798288920/869322944344641536/14.png"
+    },
+    "shell": {
+        "nome": "Shell Jab",
+        "desc": "Causa 130% de dano ao atacar um alvo ocioso.",
+        "img": "https://cdn.discordapp.com/attachments/556585154798288920/869322942729834516/13.png"
+    },
+    "swallow": {
+        "nome": "Swallow",
+        "desc": "Cure este Axie pelos danos infligidos com esta carta.",
+        "img": "https://cdn.discordapp.com/attachments/556585154798288920/869322941958078474/12.png"
+    },
+    "fish": {
+        "nome": "Fish Hook",
+        "desc": "Aplique atack + a este Axie ao atacar alvos de Plantas, Répteis ou Dusk.",
+        "img": "https://cdn.discordapp.com/attachments/556585154798288920/869322939630231642/11.png"
+    },
+    "crimson": {
+        "nome": "Crimson Water",
+        "desc": "Mire no inimigo ferido se o HP do Axie estiver abaixo de 50%",
+        "img": "https://cdn.discordapp.com/attachments/556585154798288920/869322938455818300/10.png"
+    },
+    "upstream": {
+        "nome": "Upstream Swim",
+        "desc": "Aplique Speed + a este Axie por 2 rodadas quando combinado com outra carta de classe Aquática",
+        "img": "https://cdn.discordapp.com/attachments/556585154798288920/869322937038147614/9.png"
+    },
+    "tall": {
+        "nome": "Tall Slap",
+        "desc": "Ganhe 1 de energia quando combinado com outra carta.",
+        "img": "https://cdn.discordapp.com/attachments/556585154798288920/869322935402389504/8.png"
+    },
+    "black": {
+        "nome": "Black Bubble",
+        "desc": "Aplique Jinx no alvo por 2 rodadas.",
+        "img": "https://cdn.discordapp.com/attachments/556585154798288920/869322932705439804/7.png"
+    },
+    "water": {
+        "nome": "Water Sphere",
+        "desc": "Aplicar Chill aos alvos por 2 rodadas.",
+        "img": "https://cdn.discordapp.com/attachments/556585154798288920/869322927328342066/6.png"
+    },
+    "flanking": {
+        "nome": "Flanking Smack",
+        "desc": "Causa 120% de dano se este Axie atacar primeiro.",
+        "img": "https://cdn.discordapp.com/attachments/556585154798288920/869319739971895346/5.png"
+    },
+    "spinal": {
+        "nome": "Spinal Tap",
+        "desc": "Priorize o alvo ocioso quando combinado com pelo menos 2 cartas adicionais.",
+        "img": "https://cdn.discordapp.com/attachments/556585154798288920/869319738843627581/4.png"
+    },
+    "aqua": {
+        "nome": "Aqua Vitality",
+        "desc": "Ataques bem-sucedidos restauram 50 HP para cada parte da Anêmona que este Axie possui.",
+        "img": "https://cdn.discordapp.com/attachments/556585154798288920/869319737719537714/3.png"
+    },
+    "shipwreck": {
+        "nome": "Shipwreck",
+        "desc": "Aplique atack + a este Axie se seu escudo quebrar.",
+        "img": "https://cdn.discordapp.com/attachments/556585154798288920/869319736616427570/1.png"
+    },
+    "swift": {
+        "nome": "Swift",
+        "desc": "Aplique Speed + a este Axie por 2 rodadas quando atacado.",
+        "img": "https://cdn.discordapp.com/attachments/556585154798288920/869319733227434004/Camada_2.png"
+    },
+    "single": {
+        "nome": "Single Combat",
+        "desc": "Golpe crítico garantido quando combinado com 2 outras cartas",
+        "img": "https://cdn.discordapp.com/attachments/560251522127101972/869403354936270898/1.png"
+    },
+    "heroic": {
+        "nome": "Heroic Reward",
+        "desc": "Compre uma carta ao atacar um alvo Aquático, Pássaro ou Alvorada.",
+        "img": "https://cdn.discordapp.com/attachments/560251522127101972/869403539145883668/2.png"
+    },
+    "nitro": {
+        "nome": "Nitro Leap",
+        "desc": "Sempre ataque primeiro se este Axie estiver na última resistência.",
+        "img": "https://cdn.discordapp.com/attachments/560251522127101972/869403868704944139/3.png"
+    },
+    "revenge": {
+        "nome": "Revenge Arrow",
+        "desc": "Causa 150% de dano se este Axie estiver em ultima resistencia.",
+        "img": "https://cdn.discordapp.com/attachments/560251522127101972/869404331458330684/4.png"
+    },
+    "woodman": {
+        "nome": "Woodman Power",
+        "desc": "Adicione escudo igual ao dano que estas cartas causam aos alvos de Plantas.",
+        "img": "https://cdn.discordapp.com/attachments/560251522127101972/869404716159864852/5.png"
+    },
+    "juggung": {
+        "nome": "JuggUng Balls",
+        "desc": "Ataque 3 vezes.",
+        "img": "https://cdn.discordapp.com/attachments/560251522127101972/869405078216388680/6.png"
+    },
+    "branch": {
+        "nome": "Branch Charge",
+        "desc": "Aumenta a chance de crítico em 20% se acorrentado ou combinado com uma carta de planta.",
+        "img": "https://cdn.discordapp.com/attachments/560251522127101972/869405344328208425/7.png"
+    },
+    "ivery": {
+        "nome": "Ivery Stab",
+        "desc": "Ganhe 1 energia por crítica greve tratado por sua equipe nesta rodada.",
+        "img": "https://cdn.discordapp.com/attachments/560251522127101972/869405670032695336/8.png"
+    },
+    "merry": {
+        "nome": "Merry Legion",
+        "desc": "Adicione 20% de escudo a este Axie quando jogado em conjunto.",
+        "img": "https://cdn.discordapp.com/attachments/560251522127101972/869406049088733214/9.png"
+    },
+    "sugar": {
+        "nome": "Sugar Rush",
+        "desc": "Causa 10% de dano adicional para cada Bug Axie aliado.",
+        "img": "https://cdn.discordapp.com/attachments/560251522127101972/869406305922719774/10.png"
+    },
+    "sinister": {
+        "nome": "Sinister Strike",
+        "desc": "Causa 250% de dano em ataques críticos.",
+        "img": "https://cdn.discordapp.com/attachments/560251522127101972/869406538534641664/11.png"
+    },
+    "acrobatic": {
+        "nome": "Acrobatic",
+        "desc": "Aplique + a este Axie por 2 rodadas quando atacado.",
+        "img": "https://cdn.discordapp.com/attachments/560251522127101972/869406828323287090/12.png"
+    },
+    "nut": {
+        "nome": "Nut Crack",
+        "desc": "Causa 120% de dano quando combinado com outra carta 'Nut Cracker'.",
+        "img": "https://cdn.discordapp.com/attachments/560251522127101972/869407125078687794/13.png"
+    },
+    "piercing": {
+        "nome": "Piercing Sound",
+        "desc": "Destrua 1 da energia de seu oponente.",
+        "img": "https://cdn.discordapp.com/attachments/560251522127101972/869407481414176828/14.png"
+    },
+    "death": {
+        "nome": "Death Mark",
+        "desc": "Aplique Lethal ao alvo se o HP deste Axie estiver abaixo de 30%.",
+        "img": "https://cdn.discordapp.com/attachments/560251522127101972/869408202561839145/15.png"
+    },
+    "seft": {
+        "nome": "Self Ralty",
+        "desc": "Aplique 2 Morale + a este Axie por 2 rodadas.",
+        "img": "https://cdn.discordapp.com/attachments/560251522127101972/869408568800084038/16.png"
+    },
+    "luna": {
+        "nome": "Luna Absorb",
+        "desc": "Ganhe 1 energia.",
+        "img": "https://cdn.discordapp.com/attachments/560251522127101972/869408772211228692/17.png"
+    },
+    "night": {
+        "nome": "Night Steal",
+        "desc": "Roube 1 energia de seu oponente quando combinado com outra carta.",
+        "img": "https://cdn.discordapp.com/attachments/560251522127101972/869409229868527666/18.png"
+    },
+    "rampant": {
+        "nome": "Rampant Hewl",
+        "desc": "Aplique Morale + a sua equipe por 2 rodadas se este Axie atacar enquanto estiver na última resistência.",
+        "img": "https://cdn.discordapp.com/attachments/560251522127101972/869409518071709766/20.png"
+    },
+    "hare": {
+        "nome": "Hare Dagger",
+        "desc": "Compre uma carta se este Axie atacar no início da rodada.",
+        "img": "https://cdn.discordapp.com/attachments/560251522127101972/869409886398726174/21.png"
+    },
+    "nutt": {
+        "nome": "Nut Threw",
+        "desc": "Causa 120% de dano quando combinado com outra carta 'Nut Cracker'.",
+        "img": "https://cdn.discordapp.com/attachments/560251522127101972/869410153978527804/22.png"
+    },
+    "gerbil": {
+        "nome": "Gerbil Jump",
+        "desc": "Pule o alvo mais próximo se houver 2 ou mais inimigos restantes.",
+        "img": "https://cdn.discordapp.com/attachments/560251522127101972/869410503603146782/23.png"
+    },
+    "insectivore": {
+        "nome": "Insectivore",
+        "desc": "Alvo inimigo da classe Bug se o HP do Axie estiver abaixo de 50%.",
+        "img": "https://cdn.discordapp.com/attachments/560251522127101972/869410758629400586/24.png"
+    },
+    "dark": {
+        "nome": "Dark Swoop",
+        "desc": "Alvo inimigo mais rápido.",
+        "img": "https://cdn.discordapp.com/attachments/560251522127101972/869411009289400330/25.png"
+    },
+    "early": {
+        "nome": "Early Bird",
+        "desc": "Causa 120% de dano se este Axie atacar primeiro.",
+        "img": "https://cdn.discordapp.com/attachments/560251522127101972/869411211765231696/26.png"
+    },
+    "sunder": {
+        "nome": "Sunder Aemor",
+        "desc": "Adicione 20% de escudo a este Axie para cada debuff que ele possuir.",
+        "img": "https://cdn.discordapp.com/attachments/560251522127101972/869411425104326717/27.png"
+    },
+    "risky": {
+        "nome": "Risky Feather",
+        "desc": "Aplique 2 atack a este Axie.",
+        "img": "https://cdn.discordapp.com/attachments/560251522127101972/869411635989717012/28.png"
+    },
+    "puffy": {
+        "nome": "Puffy Smack",
+        "desc": "Pule os alvos que estão em Last Stand.",
+        "img": "https://cdn.discordapp.com/attachments/560251522127101972/869411839530901564/29.png"
+    },
+    "cool": {
+        "nome": "Cool Breeze",
+        "desc": "Aplique Chill ao alvo por 2 rodadas.",
+        "img": "https://cdn.discordapp.com/attachments/560251522127101972/869411839530901564/29.png"
+    },
+    "cockadoodledoo": {
+        "nome": "Cockadoodledoo",
+        "desc": "Aplique atack + a este Axie.",
+        "img": "https://cdn.discordapp.com/attachments/560251522127101972/869412227713744916/31.png"
+    },
+    "air": {
+        "nome": "Air Force One",
+        "desc": "Causa 120% de dano quando acorrentado com outra carta 'Trump'.",
+        "img": "https://cdn.discordapp.com/attachments/560251522127101972/869412512746061834/32.png"
+    },
+    "headshot": {
+        "nome": "Headshot",
+        "desc": "Desabilite as cartas de chifre do alvo na próxima rodada.",
+        "img": "https://cdn.discordapp.com/attachments/560251522127101972/869412875419156490/33.png"
+    },
+    "smart": {
+        "nome": "Smart Shot",
+        "desc": "Pule o alvo mais próximo se houver 2 ou mais inimigos restantes.",
+        "img": "https://cdn.discordapp.com/attachments/560251522127101972/869413107267678229/34.png"
+    },
+    "feather": {
+        "nome": "Feather Lunge",
+        "desc": "Causa 120% de dano quando acorrentado com outra carta 'Lunge'.",
+        "img": "https://cdn.discordapp.com/attachments/560251522127101972/869413443973808168/35.png"
+    },
+    "soothing": {
+        "nome": "Soothing Song",
+        "desc": "Aplique Sleep ao alvo.",
+        "img": "https://cdn.discordapp.com/attachments/560251522127101972/869414592596553758/36.png"
+    },
+    "peace": {
+        "nome": "Peace Treaty",
+        "desc": "Aplique atack o alvo de atack.",
+        "img": "https://cdn.discordapp.com/attachments/560251522127101972/869415259386036265/37.png"
+    },
+    "balloon": {
+        "nome": "Balloon Pop",
+        "desc": "Aplique Fear ao alvo por 1 turno. Se estiver defendendo, aplique Fear a si mesmo até a próxima rodada.",
+        "img": "https://cdn.discordapp.com/attachments/560251522127101972/869416013920342036/38.png"
+    },
+    "heart": {
+        "nome": "Heart Break",
+        "desc": "Aplique Morale ao inimigo por 2 rodadas.",
+        "img": "https://cdn.discordapp.com/attachments/560251522127101972/869416671276830810/39.png"
+    },
+    "ill": {
+        "nome": "ill-omened",
+        "desc": "Aplique Jinx no alvo por 2 rodadas.",
+        "img": "https://cdn.discordapp.com/attachments/560251522127101972/869416919281848332/40.png"
+    },
+    "blackmall": {
+        "nome": "Blackmall",
+        "desc": "Transfira todos os debuffs neste Axie para o alvo.",
+        "img": "https://cdn.discordapp.com/attachments/560251522127101972/869417203211059221/41.png"
+    },
+    "patlent": {
+        "nome": "Patlent Hunter",
+        "desc": "Mire em um inimigo da classe Aquática se o HP do Axie estiver abaixo de 50%.",
+        "img": "https://cdn.discordapp.com/attachments/560251522127101972/869417443771170886/42.png"
+    },
+    "triple": {
+        "nome": "Triple Threat",
+        "desc": "Ataque duas vezes se este Axie tiver algum debuff.",
+        "img": "https://cdn.discordapp.com/attachments/560251522127101972/869417785627918356/43.png"
+    },
+    "eggbomb": {
+        "nome": "Eggbomb",
+        "desc": "Aplique Aroma neste Axie até a próxima rodada.",
+        "img": "https://cdn.discordapp.com/attachments/560251522127101972/869418007896657930/44.png"
+    },
+    "all": {
+        "nome": "All-out Shot",
+        "desc": "Aplique Aroma neste Axie até a próxima rodada.",
+        "img": "https://cdn.discordapp.com/attachments/560251522127101972/869418186313990164/45.png"
+    }
+
+}
