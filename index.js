@@ -1,6 +1,5 @@
 const Discord = require('discord.js')
 const client = new Discord.Client();
-const config = require ("./config/config.json");
 require('dotenv').config();
 
 class Cartas {
@@ -44,11 +43,11 @@ client.on('ready', () => {
 client.on('message', message => {
     if (message.author.bot) return;
     if (message.channel.type == 'dm') return;
-    if (!message.content.toLowerCase().startsWith(config.prefix.toLowerCase())) return;
+    if (!message.content.toLowerCase().startsWith(process.env.PREFIX.toLowerCase())) return;
     if (message.content.startsWith(`@!${client.user.id}>`) || message.content.startsWith(`<@${client.user.id}>`)) return;
     
     const args = message.content
-        .trim().slice(config.prefix.length)
+        .trim().slice(process.env.PREFIX.length)
         .split(" ");
 
     const command = args.shift();
