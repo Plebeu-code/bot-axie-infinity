@@ -10,6 +10,7 @@ exports.run = async (client, msg) => {
     if(ethPrice === false) {
         return msg.channel.send("Erro na API")
     }else {
+        msg.delete()
         const embed =  new Discord.MessageEmbed()
             .setColor('#0099ff')
             .setTitle('Valor do Ethereum hoje')
@@ -18,6 +19,7 @@ exports.run = async (client, msg) => {
             .addFields(
                 { name: `Aumento ou queda nas últimas 24h:`, value: `**${ethporc.toFixed(2)}%**`},
             )
+            .setFooter(msg.author.username, msg.author.avatarURL())
             .setTimestamp()
         msg.channel.send(embed)
     }

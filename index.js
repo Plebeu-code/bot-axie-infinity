@@ -37,6 +37,7 @@ class Cartas {
 
 client.on('ready', () => {
     console.log('Estamos online rede Infinity')
+    
 })
 
 
@@ -45,13 +46,13 @@ client.on('message', message => {
     if (message.channel.type == 'dm') return;
     if (!message.content.toLowerCase().startsWith(process.env.PREFIX.toLowerCase())) return;
     if (message.content.startsWith(`@!${client.user.id}>`) || message.content.startsWith(`<@${client.user.id}>`)) return;
-    
+    message.author.avatarURL
     const args = message.content
         .trim().slice(process.env.PREFIX.length)
         .split(" ");
 
     const command = args.shift();
-
+    
     try {
         const commandFile = require(`./Commands/${command}.js`)
         commandFile.run(client, message, args);
