@@ -34,7 +34,7 @@
 - [ ] Status dos ganhos de SLP diário por cada aluno
 - [ ] Login automático por QRcode só para alunos
 
-<p>Todas as tarefas acimas estão desenvolvidas, porém em manutenção por conta que a API não corresponde até o momento.<p/>
+<p>Todas as tarefas da scholshift estão desenvolvidas, porém em manutenção por conta que a API não corresponde até o momento.<p/>
 
 <h1 align="center">
     <a href="https://discord.gg/kzdkuPUA7v">🔗 Discord</a>
