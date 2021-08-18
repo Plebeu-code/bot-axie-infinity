@@ -23,8 +23,11 @@
 	🚧 Em construção... 🚧
 </h4>
 
+### Funcionando corretamente
+
 - [x] Mostrar SLP nas últimas 24h
 - [x] Mostrar ETH nas últimas 24h
+- [x] Todas as cartas traduzidas em PT-BR
 
 ### Scholshift manutenção - API fora do ar
 - [ ] Gerenciamento dos alunos
