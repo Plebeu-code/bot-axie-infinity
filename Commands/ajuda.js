@@ -10,6 +10,7 @@ exports.run = async (client, messagem) => {
         { name: `Prefix ${process.env.PREFIX}`, value: `Utilizando para chamar o bot`},
         { name: `${process.env.PREFIX}carta`, value:`exemplo: ${process.env.PREFIX}carta sugar rush, mostrará as informações em portugês`},
         { name: `${process.env.PREFIX}slp`, value: `mostrará a cotação do SLP de hoje, nas últimas 24h.`},
+        { name: `${process.env.PREFIX}eth`, value: `mostrará a cotação do ETH de hoje, nas últimas 24h.`},
         
     )
     .setTimestamp()

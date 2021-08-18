@@ -1,4 +1,3 @@
-require('dotenv').config()
 const fetch = require('node-fetch');
 const Web3 = require('web3');
 const web3 = new Web3();
