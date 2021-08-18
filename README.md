@@ -42,18 +42,18 @@
 <p align="center">🚀 Entre em nosso servidor do Discord para mais informações <a href="https://discord.gg/kzdkuPUA7v">🔗 Discord</a> </p>
 
 <h2>Algumas funcionalidade<h2/>
-<h3>i!ajuda<h3/>
+- <h3><h3/>
 
 ![](https://cdn.discordapp.com/attachments/877413966731677776/877413987359272980/oamP013SNG.gif)
 
-<h3>i!carta<h3/>
+- <h3>i!carta<h3/>
 
 ![](https://cdn.discordapp.com/attachments/877413966731677776/877415110933610556/3R0sOMBKlK.gif)
 
-<h3>i!slp<h3/>
+- <h3>i!slp<h3/>
 
 ![](https://cdn.discordapp.com/attachments/877413966731677776/877415755703021618/EXHd1m3cG2.gif)
 
-<h3>i!eth<h3/>
+- <h3>i!eth<h3/>
 
 ![](https://cdn.discordapp.com/attachments/877413966731677776/877416183656243200/HrdQ9hHux4.gif)
