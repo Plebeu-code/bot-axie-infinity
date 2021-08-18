@@ -23,7 +23,34 @@
 	🚧 Em construção... 🚧
 </h4>
 
+- [x] Mostrar SLP nas últimas 24h
+- [x] Mostrar ETH nas últimas 24h
+
+### Scholshift manutenção - API fora do ar
+- [ ] Gerenciamento dos alunos
+- [ ] Status dos ganhos de SLP diário por cada aluno
+- [ ] Login automático por QRcode só para alunos
+
+<p>Todas as tarefas acimas estão desenvolvidas, porém em manutenção por conta que a API não corresponde até o momento.<p/>
+
 <h1 align="center">
     <a href="https://discord.gg/kzdkuPUA7v">🔗 Discord</a>
 </h1>
 <p align="center">🚀 Entre em nosso servidor do Discord para mais informações <a href="https://discord.gg/kzdkuPUA7v">🔗 Discord</a> </p>
+
+<h2>Algumas funcionalidade<h2/>
+<h3>i!ajuda<h3/>
+
+![](https://cdn.discordapp.com/attachments/877413966731677776/877413987359272980/oamP013SNG.gif)
+
+<h3>i!carta<h3/>
+
+![](https://cdn.discordapp.com/attachments/877413966731677776/877415110933610556/3R0sOMBKlK.gif)
+
+<h3>i!slp<h3/>
+
+![](https://cdn.discordapp.com/attachments/877413966731677776/877415755703021618/EXHd1m3cG2.gif)
+
+<h3>i!eth<h3/>
+
+![](https://cdn.discordapp.com/attachments/877413966731677776/877416183656243200/HrdQ9hHux4.gif)
