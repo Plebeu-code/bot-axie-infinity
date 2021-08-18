@@ -1,13 +1,13 @@
 const Discord = require('discord.js');
-const getPrice = require('../web/requis')
-const slpPorcen = require('../web/requis')
+const getPrice = require('../api/api_slp')
+const slpPorcen = require('../api/api_slp')
 
 exports.run = async (client, msg) => {
     const slpPrice = await getPrice.slpPrice();
     const slpporc = await slpPorcen.slpPorcen();
 
     if(slpPrice === false) {
-        return msg.channel.send("Erro no foda-se")
+        return msg.channel.send("Erro na API")
     }else {
         const embed =  new Discord.MessageEmbed()
             .setColor('#0099ff')
