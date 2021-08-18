@@ -42,7 +42,8 @@
 <p align="center">🚀 Entre em nosso servidor do Discord para mais informações <a href="https://discord.gg/kzdkuPUA7v">🔗 Discord</a> </p>
 
 <h2>Algumas funcionalidade<h2/>
-- <h3>Ajuda<h3/>
+
+- <h3>i!ajuda<h3/>
 
 ![](https://cdn.discordapp.com/attachments/877413966731677776/877413987359272980/oamP013SNG.gif)
 
