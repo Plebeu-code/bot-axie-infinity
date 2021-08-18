@@ -1,6 +1,5 @@
 const Discord = require('discord.js');
 const card = require("../cartas/cartas.json")
-const config = require("../config/config.json")
 const { Cartas } = require("../index")
 
 exports.run = async (client, msg, args) => {

@@ -1,6 +1,4 @@
 const Discord = require('discord.js');
-const config = require('../config/config.json');
-const fetch = require('node-fetch');
 const getPrice = require('../web/requis')
 const slpPorcen = require('../web/requis')
 
