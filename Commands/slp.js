@@ -1,25 +1,22 @@
 const Discord = require('discord.js');
-const getPrice = require('../api/api_slp')
-const slpPorcen = require('../api/api_slp')
+const api = require('../requests/axios')
 
 exports.run = async (client, msg) => {
-    const slpPrice = await getPrice.slpPrice();
-    const slpporc = await slpPorcen.slpPorcen();
+    //! Puxando da api
+    let resultLsp = await api.get('/smooth-love-potion')
+    const lspFormat = resultLsp.data["market_data"]["current_price"]["brl"].toLocaleString('pt-br', { style: 'currency', currency: 'BRL' })
+    const porcentagem = resultLsp.data["market_data"]["price_change_percentage_24h_in_currency"]["brl"]
 
-    if(slpPrice === false) {
-        return msg.channel.send("Erro na API")
-    }else {
-        msg.delete();
-        const embed =  new Discord.MessageEmbed()
-            .setColor('#0099ff')
-            .setTitle('Valor do SLP hoje')
-            .setAuthor(msg.author.username)
-            .setDescription(`**1 SLP = ${slpPrice} BRL**`)
-            .addFields(
-                { name: `Aumento ou queda nas últimas 24h:`, value: `**${slpporc.toFixed(2)}%**`},
-            )
-            .setFooter(msg.author.username, msg.author.avatarURL())
-            .setTimestamp()
-        msg.channel.send(embed)
-    }
+    msg.delete();
+    const embed = new Discord.MessageEmbed()
+        .setColor('#0099ff')
+        .setTitle('Valor do SLP hoje')
+        .setAuthor(msg.author.username)
+        .setDescription(`**1 SLP = ${lspFormat} BRL**`)
+        .addFields(
+            { name: `Aumento ou queda nas últimas 24h:`, value: `**${porcentagem.toFixed(2)}%**` },
+        )
+        .setFooter(msg.author.username, msg.author.avatarURL())
+        .setTimestamp()
+    msg.channel.send(embed)
 }

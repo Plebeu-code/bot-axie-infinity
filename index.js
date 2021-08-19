@@ -2,6 +2,8 @@ const Discord = require('discord.js')
 const client = new Discord.Client();
 require('dotenv').config();
 
+
+
 class Cartas {
     constructor(deck) {
       if (!typeof deck == "object")
@@ -37,17 +39,16 @@ class Cartas {
 
 client.on('ready', () => {
     console.log('Estamos online rede Infinity')
-    
 })
 
 
-client.on('message', message => {
-    if (message.author.bot) return;
-    if (message.channel.type == 'dm') return;
-    if (!message.content.toLowerCase().startsWith(process.env.PREFIX.toLowerCase())) return;
-    if (message.content.startsWith(`@!${client.user.id}>`) || message.content.startsWith(`<@${client.user.id}>`)) return;
-    message.author.avatarURL
-    const args = message.content
+client.on('message', msg => {
+    if (msg.author.bot) return;
+    if (msg.channel.type == 'dm') return;
+    if (!msg.content.toLowerCase().startsWith(process.env.PREFIX.toLowerCase())) return;
+    if (msg.content.startsWith(`@!${client.user.id}>`) || msg.content.startsWith(`<@${client.user.id}>`)) return;
+    msg.author.avatarURL
+    const args = msg.content
         .trim().slice(process.env.PREFIX.length)
         .split(" ");
 
@@ -55,7 +56,7 @@ client.on('message', message => {
     
     try {
         const commandFile = require(`./Commands/${command}.js`)
-        commandFile.run(client, message, args);
+        commandFile.run(client, msg, args);
     } catch (err) {
         console.error('Erro: ' + err)
     }
