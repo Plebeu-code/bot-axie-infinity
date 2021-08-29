@@ -1,12 +1,16 @@
 {
     "buff": {
-        "nome": "",
-        "descricao": "",
-        "img": ""
+        "atackUp": {
+            "name": "",
+            "descri": "",
+            "img": ""
+        }
     },
-    "debuff": {
-        "nome": "",
-        "descricao": "",
-        "img": ""
+    "deBuff": {
+        "atackDown": {
+            "name": "",
+            "descri": "",
+            "img": ""
+        }
     }
 }
