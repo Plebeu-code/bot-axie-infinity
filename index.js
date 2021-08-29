@@ -35,6 +35,38 @@ class Cartas {
     };
 }
 
+class Efeitos {
+  constructor(deck) {
+    if (!typeof deck == "object")
+      return "Preciso que o efeito seja um Objeto.";
+    this.deck = Object.entries(deck);
+  }
+
+  conteudo = () => {
+    let result = [];
+
+    for (let index of this.deck) {
+      result.push(index[1]);
+    }
+
+    return result;
+  };
+
+  buscar = (value) => {
+    if (value === "") return "Defina o nome que você quer que eu busque.";
+    if (value === undefined)
+      return "Defina o nome que você quer que eu busque.";
+
+    const search = this.deck.filter((x) => {
+      toString(x).toLowerCase();
+      toString(value).toLowerCase();
+
+      return x.indexOf(value) > -1;
+    });
+
+    return search[0] != undefined ? search[0] : -1;
+  };
+}
 
 ['events_handler'].forEach(handler => {
   require(`./handlers/${handler}`)(client, Discord)
@@ -62,4 +94,4 @@ client.on('message', msg => {
 
 client.login(process.env.DISCORD_TOKEN);
 
-module.exports = { Cartas, client };
+module.exports = { Cartas, Efeitos, client };
