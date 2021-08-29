@@ -26,11 +26,6 @@ exports.run = async (client, msg, args) => {
     .setTimestamp()
 
     msg.channel.send(enviarCarta) //
-    .then((tmp) => {
-
-      tmp.delete({timeout: 3500})
-
-    })
 
   }
 

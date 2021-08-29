@@ -2,8 +2,6 @@ const Discord = require('discord.js')
 const client = new Discord.Client();
 require('dotenv').config();
 
-
-
 class Cartas {
     constructor(deck) {
       if (!typeof deck == "object")
@@ -35,12 +33,12 @@ class Cartas {
   
       return search[0] != undefined ? search[0] : -1;
     };
-  }
+}
 
-client.on('ready', () => {
-    console.log('Estamos online rede Infinity')
+
+['events_handler'].forEach(handler => {
+  require(`./handlers/${handler}`)(client, Discord)
 })
-
 
 client.on('message', msg => {
     if (msg.author.bot) return;
