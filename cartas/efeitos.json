@@ -1,0 +1,153 @@
+{
+
+    "attack-up": {
+        "name": "Ataque aumentado",
+        "aliases": [
+            "Attack up"
+        ],
+        "description": "Aumenta o próximo Ataque em 20%",
+        "stack": "Sim",
+        "img": "https://cdn.discordapp.com/attachments/881391942745849953/881392049658679316/buff-attack-up.png"
+    },
+    "morale-up": {
+        "name": "Moral aumentada",
+        "aliases": [
+            "Morale up"
+        ],
+        "description": "Aumenta a moral em 20% para a próxima rodada",
+        "stack": "Sim",
+        "img": "https://cdn.discordapp.com/attachments/881391942745849953/881392070173016064/buff-morale-up.png" 
+    },
+    "speed-up": {
+        "name": "Velocidade aumentada",
+        "aliases": [
+            "Speed up"
+        ],
+        "description": "Aumenta a velocidade em 20% para a próxima rodada",
+        "stack": "Sim",
+        "img": "https://cdn.discordapp.com/attachments/881391942745849953/881392082856603658/buff-speed-up.png"
+    },
+    "aroma": {
+        "name": "Aroma",
+        "aliases": [
+            ""
+        ],
+        "description": "Muda a prioridade para o Axie afetado na próxima rodada",
+        "stack": "Não",
+        "img": "https://cdn.discordapp.com/attachments/881391942745849953/881392097876410448/debuff-aroma.png"
+    },
+    "attack-down": {
+        "name": "Ataque diminuido",
+        "aliases": [
+            "Attack down"
+        ],
+        "description": "Diminui o próximo ataque em 20%",
+        "stack": "Sim",
+        "img": "https://cdn.discordapp.com/attachments/881391942745849953/881392142679941190/debuff-attack-down.png"
+    },
+    "chill": {
+        "name": "Frio",
+        "aliases": [
+            "Chill"
+        ],
+        "description": "O alvo afetado não pode entrar em Last Stand",
+        "stack": "Não",
+        "img": "https://cdn.discordapp.com/attachments/881391942745849953/881392161919213568/debuff-chill.png"
+    },
+    "fear": {
+        "name": "Medo",
+        "aliases": [
+            "Fear"
+        ],
+        "description": "O alvo afetado não pode atacar",
+        "stack": "Não",
+        "img": "https://cdn.discordapp.com/attachments/881391942745849953/881392183389851648/debuff-fear.png"
+    },
+    "fragile": {
+        "name": "Frágil",
+        "aliases": [
+            "Fragile",
+            "Fragil"
+        ],
+        "description": "O escudo leva o dobro de dano no próximo ataque",
+        "stack": "Não",
+        "img": "https://cdn.discordapp.com/attachments/881391942745849953/881392205338660894/debuff-fragile.png"
+    },
+    "jinx": {
+        "name": "Jinx",
+        "aliases": [
+            ""
+        ],
+        "description": "Não poderá causar acertos críticos na próxima rodada",
+        "stack": "Não",
+        "img": "https://cdn.discordapp.com/attachments/881391942745849953/881392229694988358/debuff-jinx.png"
+    },
+    "lethal": {
+        "name": "Letal",
+        "aliases": [
+            "Lethal"
+        ],
+        "description": "O próximo acerto no alvo afetado será um crítico",
+        "stack": "Não",
+        "img": "https://cdn.discordapp.com/attachments/881391942745849953/881392246451216465/debuff-lethal.png"
+    },
+    "morale-down": {
+        "name": "Moral dimunuida",
+        "aliases": [
+            "Morale down"
+        ],
+        "description": "Diminui o moral em 20% na próxima rodada",
+        "stack": "Sim",
+        "img": "https://cdn.discordapp.com/attachments/881391942745849953/881392269003993169/debuff-morale-down.png"
+    },
+    "poison": {
+        "name": "Veneno",
+        "aliases": [
+            "Poison"
+        ],
+        "description": "O Axie afetado perde 2 de Vida para cada ação",
+        "stack": "Sim",
+        "img": "https://cdn.discordapp.com/attachments/881391942745849953/881392291653226596/debuff-poison.png"
+    },
+    "sleep": {
+        "name": "Dormir",
+        "aliases": [
+            "Sleep",
+            "Sono",
+            "Dormir"
+        ],
+        "description": "O próximo ataque irá ignorar o escudo",
+        "stack": "Não",
+        "img": "https://cdn.discordapp.com/attachments/881391942745849953/881392308745019452/debuff-sleep.png"
+    },
+    "speed-down": {
+        "name": "Velocidade diminuida",
+        "aliases": [
+            "Speed down"
+        ],
+        "description": "Diminui a velocidade em 20% na próxima rodada",
+        "stack": "Sim",
+        "img": "https://cdn.discordapp.com/attachments/881391942745849953/881392330156941316/debuff-speed-down.png"
+    },
+    "stench": {
+        "name": "Fedor",
+        "aliases": [
+            "Stench",
+            "Fedido"
+        ],
+        "description": "Perde a prioridade de ataque na próxima rodada",
+        "stack": "Não",
+        "img": "https://cdn.discordapp.com/attachments/881391942745849953/881392345503899698/debuff-stench.png"
+    },
+    "stun": {
+        "name": "Atordoado",
+        "aliases": [
+            "Stun",
+            "Stunado",
+            "Atordoar"
+        ],
+        "description": "Alvo afetado não acertará o próximo golpe",
+        "stack": "Não",
+        "img": "https://cdn.discordapp.com/attachments/881391942745849953/881392363837210664/debuff-stun.png"
+    }
+}
